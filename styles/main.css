@@ -1,5 +1,17 @@
+.top-nav-box{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .top-nav-box a{
   text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .top-nav-box a:link { 
@@ -11,7 +23,8 @@
 }
 
 .top-nav-box a:hover { 
-  text-decoration: none; 
+  text-decoration: underline double !important; 
+  text-underline-offset: 5px;
 }
 
 .top-nav-box a:active { 
@@ -30,12 +43,14 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center center;
 }
 
 .quote-box{
   background-color: rgba(0,0,0,0.65);
   color: white;
-  padding: 50px;
+  padding: 25px;
+  padding-bottom: 60px;
   font-size: 15px;
 }
 
@@ -46,6 +61,35 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center center;
+}
+
+.second-nav-box{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  color: white;
+}
+
+@media (min-width: 768px){
+  .second-nav-box{
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+}
+
+.second-nav-box a{
+  text-decoration: none !important;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+
+.second-nav-box a:hover{
+  text-decoration: underline 3px !important; 
+  text-underline-offset: 5px;
 }
 
 .disc_paragraph_box{
@@ -62,6 +106,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center center;
 }
 
 .sale_disc_box{
@@ -77,6 +122,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center center;
 }
 
 .history_disc_box{
@@ -92,4 +138,12 @@
 .row_box{
   display: flex;
   flex-wrap: wrap;
+}
+
+button{
+  background-color: white;
+  border-color: #c8915b;
+  padding: 2px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
 }
