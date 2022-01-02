@@ -55,3 +55,41 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+.fourth_background_box{
+  background-image: url("../img/fourth_background.png"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.sale_disc_box{
+  padding: 100px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.fifth_background_box{
+  margin-top: 25px;
+  background-image: url("../img/fifth_background.png"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.history_disc_box{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.history_disc_box p{
+  color: white;
+}
+
+.row_box{
+  display: flex;
+  flex-wrap: wrap;
+}
